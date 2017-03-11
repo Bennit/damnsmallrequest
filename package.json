@@ -1,0 +1,36 @@
+{
+  "name": "damnsmallrequest",
+  "version": "0.0.1",
+  "description": "Small HTTP(S) request library with node, browser and mock driver",
+  "main": "build/index.js",
+  "typings": "build/index.d.ts",
+  "scripts": {
+    "build": "node ./node_modules/typescript/bin/tsc",
+    "clean": "rm -r build",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bennit/damnsmallrequest.git"
+  },
+  "keywords": [
+    "HTTP",
+    "Request"
+  ],
+  "author": "Ben Corne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bennit/damnsmallrequest/issues"
+  },
+  "homepage": "https://github.com/Bennit/damnsmallrequest#readme",
+  "dependencies": {
+    "es6-promise": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.44",
+    "@types/node": "^7.0.8",
+    "jasmine": "^2.5.3",
+    "jasmine-node": "^1.14.5",
+    "typescript": "^2.2.1"
+  }
+}

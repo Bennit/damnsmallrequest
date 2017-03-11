@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "outDir": "build",
+    "declaration": true,
+    "declarationDir": "build",
+    "lib": [ "es2015" ],
+    "noLib": false
+  },
+  "filesGlob": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "./e2e-node",
+    "./build",
+    "./node_modules"
+  ]
+}
